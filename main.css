@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -6,21 +5,37 @@
 }
 .header{
     display: flex;
+    flex-flow: row nowrap;
     background-color:#515151;
-    border-style: solid;
-    border-color: #707070;
+    border: solid #707070;
+    max-width: 1920px;
+    max-height: 56px;
+    align-items: center;
 }
-.right-col{
-    margin-left: 150mm;
+.space-creator1{
+    flex-basis: 404px;
 }
-.left-col{
-    margin-left:30mm;
+.space-creator2{
+    flex-basis: 651px;
 }
+.space-creator3{
+    flex-basis: 406px;}
+.choose-link{
+    text-align: center;
+    min-height: 14px;
+    margin-right:17px;
+}
+.panel-link{
+    display: flex;
+    max-width: 173px;
+}
+
 .nav-link{
     font-family: 'Segoe UI';
     font-size: 20px;
     color: #F5F5F5;
     text-decoration: none;
+    text-align: center;
 }
 .greetings-col{
     font-family: 'Segoe UI';
