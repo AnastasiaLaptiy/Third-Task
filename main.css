@@ -3,7 +3,7 @@
     padding:0;
     outline:none;
 }
-.header{
+.navbar-menu{
     display: flex;
     flex-flow: row nowrap;
     background-color:#515151;
@@ -19,7 +19,8 @@
     flex-basis: 651px;
 }
 .space-creator3{
-    flex-basis: 406px;}
+    flex-basis: 406px;
+}
 .choose-link{
     text-align: center;
     min-height: 14px;
@@ -29,16 +30,15 @@
     display: flex;
     max-width: 173px;
 }
-
 .nav-link{
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI Light';
     font-size: 20px;
     color: #F5F5F5;
     text-decoration: none;
     text-align: center;
 }
 .greetings-col{
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI ';
     font-size: 40px;
     color: #000000;
     margin-left: 15mm;
@@ -80,7 +80,20 @@
 }
 .footer{
     background-color:#343A40;
-    text-align: center;
-    font-family: 'Segoe UI';
-    color:white;
+    max-width: 1920px;
+    min-height: 120px;
+    display: flex;
 }
+.footer-container{     
+    min-height: 35px;
+    flex-shrink:0; 
+}
+.footer-text
+{
+    padding:60px 866px 25px 754px;
+    color:white;
+    font-family: 'Segoe UI Semibold';
+    font-size: 20px;
+    flex-basis: 300px;
+}
+
