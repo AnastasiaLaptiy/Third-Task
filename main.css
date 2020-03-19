@@ -31,52 +31,11 @@
     max-width: 173px;
 }
 .nav-link{
-    font-family: 'Segoe UI Light';
+    font-family: 'Segoe UI Regular';
     font-size: 20px;
     color: #F5F5F5;
     text-decoration: none;
     text-align: center;
-}
-.greetings-col{
-    font-family: 'Segoe UI ';
-    font-size: 40px;
-    color: #000000;
-    margin-left: 15mm;
-    margin-top: 15mm;
-
-}
-.greetings-text{
-    font-family: 'Segoe UI';
-    font-size: 20px;
-    margin-left: 15mm;
-    margin-right: 15mm;
-}
-.content{
-    margin-right: 65mm;
-    margin-left: 30mm;
-    background-color: #E9ECEF;
-    border-radius: 2mm;
-}
-.greetings-btn{
-    background-color: #007BFF;
-    border-radius: 0.8mm;
-    color:white;
-    text-align:center;
-    border: none;
-    padding: 15px 32px;
-    margin-top: 10mm;
-    margin-bottom: 10mm;
-}
-.card-text{
-    background-color:#6C757D;
-    color:white;
-    font-size: 7px;
-    text-align: center;
-
-}
-.text-marg{
-    margin-top: 10mm;
-    margin-bottom: 10mm ;
 }
 .footer{
     background-color:#343A40;
@@ -96,4 +55,40 @@
     font-size: 20px;
     flex-basis: 300px;
 }
+.middle-container{
+    display: flex;
+    margin: 25px 405px 117px;
+}
+.middle-content{
+    background-color: #E9ECEF;
+    min-width: 1110px;
+    min-height: 376px; 
+}
+.greetings-col{
+    font-size: 30px;
+    font-family: 'Segoe UI Light';
+    color:black;
+    flex-basis:610px; 
+    padding: 65px 461px 25px 33px;
+}
+.greetings-text{
+    font-family:'Segoe UI Light';
+    font-size: 20px;
+    padding: 0 31px 0 33px;
+}
+.greetings-btn{
+    background-color: #007BFF;
+    color:white;
+    border-radius: 7px;
+    min-width: 199px;
+    min-height: 48px;
+    font-size: 20px;
+    font-family: 'Segoe UI Regular';
+    border:none;
+    
+}
+.middle-btn{
+    padding: 20px 878px 63px 33px;
+}
+
 
