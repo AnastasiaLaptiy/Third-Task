@@ -63,6 +63,7 @@
     background-color: #E9ECEF;
     min-width: 1110px;
     min-height: 376px; 
+    border-radius: 4px;
 }
 .greetings-col{
     font-size: 30px;
@@ -89,6 +90,61 @@
 }
 .middle-btn{
     padding: 20px 878px 63px 33px;
+}
+.card-block{
+    min-width: 255px;
+    min-height: 430px;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-img{
+    width: 255px;
+    height: 116px;
+}
+.btn-decor{
+    background-color: #007BFF;
+    color:white;
+    border-radius: 7px;
+    min-width: 136px;
+    min-height: 38px;
+    font-size: 16px;
+    font-family: 'Segoe UI Regular';
+    border:none;
+}
+
+.card-desc{
+    font-family:'Segoe UI Regular';
+    font-size: 16px;
+}
+.card-title{
+    font-family:'Segoe UI Semibold';
+    font-size: 24px;
+}
+.cards-col{
+    display: flex;
+    margin: 25px 405px 117px;
+    max-width: 1110px;
+    max-height: 430px;
+}
+.card-bg{
+    background-color: white;
+}
+.btn-bg{
+    background-color: #F7F7F7;
+    padding: 13px 60px 12px;
+}
+.card-title{
+    padding: 20px 58px 12px 21px;
+}
+.card-desc{
+    padding: 0 23px 23px 33px;
+}
+.card-block{
+    
+    margin:20px;
+    border:1px #DFDFDF solid;
+
 }
 
 
